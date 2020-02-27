@@ -32,8 +32,8 @@ public class Day1 {
 		
 		driver.findElement(By.name("reg_passwd__")).sendKeys("Shilu009");
 		driver.findElement(By.name("birthday_month")).sendKeys("11");
-		driver.findElement(By.id("day")).sendKeys("1");
-		driver.findElement(By.id("year")).sendKeys("1983");
+		driver.findElement(By.id("day")).sendKeys("10");
+		driver.findElement(By.id("year")).sendKeys("1985");
 		driver.findElement(By.id("u_0_7")).click();
 		
 		driver.findElement(By.name("websubmit")).click();
